@@ -1,5 +1,6 @@
 security:
   oauth2:
     client:
-      client-id: dev-hi
-      client-secret: abcd
+      clientId: devHi
+      clientSecret: abcd
+      introspectionUri: http://localhost:8080/authorize
